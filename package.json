@@ -1,0 +1,42 @@
+{
+  "name": "testcasekit",
+  "version": "1.0.0",
+  "description": "Testcasekit is a node.js package to create testcases easily",
+  "main": "testcasekit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmil11/Testcases.git"
+  },
+  "keywords": [
+    "test",
+    "cases",
+    "testcases",
+    "testcase",
+    "case",
+    "tests",
+    "node.js",
+    "js",
+    "node",
+    "npm",
+    "npm.js",
+    "npmjs",
+    "package",
+    "module",
+    "backend",
+    "back-end",
+    "easy",
+    "easily",
+    "easier",
+    "quick",
+    "express"
+  ],
+  "author": "willmil11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willmil11/Testcasekit/issues"
+  },
+  "homepage": "https://github.com/willmil11/Testcasekit#readme"
+}
