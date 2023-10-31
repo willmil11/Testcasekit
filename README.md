@@ -1,4 +1,4 @@
-# Testcasekit by willmil11
+# Testcasekit by willmil11 [1.0.1]
 
 ## Installation
 If you have npm and node.js install you can run the following command in a terminal
@@ -48,6 +48,12 @@ Passed testcase
 <br>
 <img src="./readmeimages/passedtestcase.png">
 
+## Changelog
+### 1.0.1
+- Fixed checking for null or undefined values
+### 1.0.0
+- Initial release
+
 ## Github
 ### Repo link
 <a href="https://github.com/willmil11/Testcasekit">https://github.com/willmil11/Testcasekit</a>
@@ -60,4 +66,4 @@ If you have any questions or suggestions you can contact me on discord: willmil1
 I have an email too: willmil1110@gmail.com
 
 ## Credits
-No credits lol
+Credits to github copilot lol

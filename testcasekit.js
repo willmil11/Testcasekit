@@ -105,16 +105,8 @@ module.exports = {
                         return;
                     }
                 }
-                if (value == null) {
-                    throw "[Testcases] Value is null";
-                    return;
-                }
                 return {
                     "toBe": function (value2) {
-                        if (value2 == null) {
-                            throw "[Testcases] Second value is null";
-                            return;
-                        }
                         if (!(value == value2)) {
                             passed = false;
                             failedItems.push(name);
@@ -124,10 +116,6 @@ module.exports = {
                         }
                     },
                     "toStrictlyBe": function (value2) {
-                        if (value2 == null) {
-                            throw "[Testcases] Second value is null";
-                            return;
-                        }
                         if (!(value === value2)) {
                             passed = false;
                             failedItems.push(name);
@@ -137,10 +125,6 @@ module.exports = {
                         }
                     },
                     "toBeLessThan": function (value2) {
-                        if (value2 == null) {
-                            throw "[Testcases] Second value is null";
-                            return;
-                        }
                         if (!(value < value2)) {
                             passed = false;
                             failedItems.push(name);
@@ -150,10 +134,6 @@ module.exports = {
                         }
                     },
                     "toBeMoreThan": function (value2) {
-                        if (value2 == null) {
-                            throw "[Testcases] Second value is null";
-                            return;
-                        }
                         if (!(value > value2)) {
                             passed = false;
                             failedItems.push(name);
@@ -164,10 +144,6 @@ module.exports = {
                     },
                     "not": {
                         "toBe": function (value2) {
-                            if (value2 == null) {
-                                throw "[Testcases] Second value is null";
-                                return;
-                            }
                             if (value == value2) {
                                 passed = false;
                                 failedItems.push(name);
@@ -177,10 +153,6 @@ module.exports = {
                             }
                         },
                         "toStrictlyBe": function (value2) {
-                            if (value2 == null) {
-                                throw "[Testcases] Second value is null";
-                                return;
-                            }
                             if (value === value2) {
                                 passed = false;
                                 failedItems.push(name);
@@ -190,10 +162,6 @@ module.exports = {
                             }
                         },
                         "toBeLessThan": function (value2) {
-                            if (value2 == null) {
-                                throw "[Testcases] Second value is null";
-                                return;
-                            }
                             if (value < value2) {
                                 passed = false;
                                 failedItems.push(name);
@@ -203,10 +171,6 @@ module.exports = {
                             }
                         },
                         "toBeMoreThan": function (value2) {
-                            if (value2 == null) {
-                                throw "[Testcases] Second value is null";
-                                return;
-                            }
                             if (value > value2) {
                                 passed = false;
                                 failedItems.push(name);

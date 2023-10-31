@@ -1,6 +1,6 @@
 {
   "name": "testcasekit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Testcasekit is a node.js package to create testcases easily",
   "main": "testcasekit.js",
   "scripts": {
